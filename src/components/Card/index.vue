@@ -11,13 +11,13 @@
 
       <h3>Benefícios:</h3>
       <ul>
-        <li v-for="(beneficit, key) of beneficits" :key="key">
+        <li v-for="(beneficit, key) of benefits" :key="key">
           {{ beneficit }}
         </li>
       </ul>
 
       <div class="price">
-        <label>Por apenas:</label> <span><label>R$</label>23.55</span>
+        <label>Por apenas:</label> <span><label>R$ </label>23.55</span>
       </div>
     </div>
 
@@ -41,7 +41,7 @@ export default {
     name: {
       type: String,
     },
-    beneficits: {
+    benefits: {
       type: Array,
     },
     price: {
