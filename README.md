@@ -2,6 +2,11 @@
 
 **A Vue project to show products list**
 
+
+## 🖼️ Demo
+
+To use the application, visit **[here](https://products-catalog.vercel.app/)**.
+
 ## ⚙️ Running
 
 To run this application, you'll need to have installed on your computer:
