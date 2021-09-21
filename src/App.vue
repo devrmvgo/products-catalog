@@ -27,7 +27,7 @@ body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  background: #a49bb6;
+  min-height: 100vh;
+  background: #dbd9e0;
 }
 </style>

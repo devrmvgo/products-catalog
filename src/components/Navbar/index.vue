@@ -17,6 +17,8 @@ export default {
   width: 100%;
   height: 60px;
   background: #151020;
+  padding: 0 5rem;
+  position: fixed; 
 }
 
 .logo {
