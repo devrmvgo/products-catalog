@@ -1,24 +1,42 @@
-# products-catalog
+<h1 align="center">products catalog</h1>
 
-## Project setup
-```
-yarn install
+**A Vue project to show products list**
+
+## ⚙️ Running
+
+To run this application, you'll need to have installed on your computer:
+
+- [Git](https://git-scm.com)
+-  [Node.js](https://nodejs.org/en/)
+
+
+```bash
+# Clone repository
+$ git clone https://github.com/felipealp/products-catalog
+
+# Access the project path
+$ cd products-catalog
+
+# Install the dependencies
+$ yarn install
+
+# Runs the app in the development mode
+$ yarn serve
+
+# Ready
+# Open http://localhost:8080/ to view it in the browser
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 💻 Technologies
 
-### Compiles and minifies for production
-```
-yarn build
-```
+This project was built with the following technologies:
 
-### Lints and fixes files
-```
-yarn lint
-```
+- [Vue](https://cli.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 👨‍💻 Author
+
+Made with ❤ by Luiz Felipe.
+Contact me at [likedin](https://www.linkedin.com/in/felipealp).
+💛👋
+
