@@ -8,6 +8,13 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
+    beforeEnter: function(to, from, next) {
+      next("/products");
+    },
+  },
+
+  {
+    path: "/products",
     name: "Products",
     component: Products,
   },
