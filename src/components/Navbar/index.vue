@@ -16,7 +16,7 @@ export default {
 .navbar {
   width: 100%;
   height: 60px;
-  background: #151020;
+  background: #1F192D;
   padding: 0 5rem;
   position: fixed; 
 }

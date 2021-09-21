@@ -25,7 +25,7 @@
 
     <div class="actions">
       <button class="button-buy">Comprar</button>
-      <span class="action-detail">Adicionar ao carrinho >></span>
+      <span class="action-car-shop">Adicionar ao carrinho >></span>
     </div>
   </div>
 </template>
@@ -120,6 +120,10 @@ export default {
   .actions {
     padding: 0 2rem 1rem;
 
+    @media (min-width: 740px) and (max-width: 825px) {
+      padding: 0 1rem 1rem;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,14 +137,14 @@ export default {
       font-weight: bold;
     }
 
-    .action-detail {
+    .action-car-shop {
       float: right;
       padding: 0 1rem;
       color: #1f192d;
     }
 
     .button-buy:hover,
-    .action-detail:hover {
+    .action-car-shop:hover {
       cursor: pointer;
     }
   }
